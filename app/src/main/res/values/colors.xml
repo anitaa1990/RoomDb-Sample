@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ebebeb</color>
+    <color name="colorPrimaryDark">#ebebeb</color>
+    <color name="colorAccent">#ebebeb</color>
+
+    <color name="bg_layout">#ebebeb</color>
+    <color name="layout_title">#212121</color>
+    <color name="layout_item_desc">#2a2a2a</color>
+    <color name="fab_color">#4285f4</color>
+    <color name="btn_done_color">#1a73e8</color>
+    <color name="line">#40000000</color>
+    <color name="edit_title">#757575</color>
+    <color name="delete_tine">#40212121</color>
+    <color name="bg_lock">#99000000</color>
+</resources>

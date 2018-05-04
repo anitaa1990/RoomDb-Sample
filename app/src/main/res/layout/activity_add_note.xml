@@ -1,0 +1,103 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_layout">
+
+    <include layout="@layout/view_toolbar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_large"
+        android:paddingLeft="@dimen/margin_large"
+        android:paddingRight="@dimen/margin_large"
+        android:paddingTop="@dimen/margin_xxlarge"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <com.an.customfontview.CustomEditText
+            android:id="@+id/edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/edit_title"
+            android:singleLine="false"
+            android:inputType="textCapSentences|textMultiLine"
+            android:textColor="@color/edit_title"
+            android:textCursorDrawable="@drawable/cursor_black"
+            android:textSize="@dimen/font_medium_large"
+            app:editFontPath="fonts/montserrat_regular.otf" />
+
+
+        <com.an.customfontview.CustomEditText
+            android:id="@+id/edit_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_xxxxlarge"
+            android:background="@android:color/transparent"
+            android:hint="@string/edit_desc"
+            android:singleLine="false"
+            android:inputType="textCapSentences|textMultiLine"
+            android:textColor="@color/edit_title"
+            android:textCursorDrawable="@drawable/cursor_black"
+            android:textSize="@dimen/font_medium"
+            app:editFontPath="fonts/montserrat_light.otf" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_xxxlarge"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding">
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/encrypt"
+                android:textColor="@color/layout_title"
+                android:textSize="@dimen/font_xmedium" />
+
+            <com.an.customfontview.CustomEditText
+                android:id="@+id/edit_pwd"
+                android:drawableRight="@drawable/ic_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:background="@drawable/edittext_line"
+                android:hint="@string/edit_pwd"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:paddingBottom="@dimen/padding_xxsmall"
+                android:textColor="@color/edit_title"
+                android:textCursorDrawable="@drawable/cursor_black"
+                android:textSize="@dimen/font_medium"
+                android:visibility="invisible"
+                app:editFontPath="fonts/montserrat_light.otf" />
+
+
+        </LinearLayout>
+
+
+        <com.an.customfontview.CustomTextView
+            android:id="@+id/text_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/margin_xxxxxxxlarge"
+            android:gravity="right"
+            android:textColor="@color/edit_title"
+            android:textSize="@dimen/font_small"
+            app:textFontPath="fonts/montserrat_light.otf" />
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

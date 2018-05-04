@@ -1,0 +1,46 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <include layout="@layout/view_toolbar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margin_xxlarge"
+        android:paddingBottom="@dimen/margin_large"
+        android:paddingLeft="@dimen/margin_large"
+        android:paddingRight="@dimen/margin_large"
+        android:paddingTop="@dimen/margin_xxlarge"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <com.an.customfontview.CustomEditText
+            android:id="@+id/edit_pwd"
+            android:drawableRight="@drawable/ic_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_xlarge"
+            android:layout_marginRight="@dimen/margin_xlarge"
+            android:background="@drawable/edittext_line"
+            android:hint="@string/edit_pwd"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:paddingBottom="@dimen/padding_small"
+            android:textColor="@color/edit_title"
+            android:textCursorDrawable="@drawable/cursor_black"
+            android:textSize="@dimen/font_medium_large"
+            app:editFontPath="fonts/montserrat_light.otf" />
+
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

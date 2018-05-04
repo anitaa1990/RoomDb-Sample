@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RoomDbExample</string>
+    <string name="task_title">My Notes</string>
+    <string name="add_task_title">Add new note</string>
+    <string name="edit_task_title">Edit note</string>
+    <string name="btn_done">Done</string>
+    <string name="edit_title">Title</string>
+    <string name="edit_desc">Note</string>
+    <string name="edit_pwd">Password</string>
+    <string name="toolbar_pwd">Enter Password</string>
+    <string name="encrypt">Lock note</string>
+    <string name="item_note">View note</string>
+    <string name="empty_notes">Once you add some notes\nyou will find it here</string>
+
+    <string name="pwd_title">Enter password</string>
+    <string name="error_pwd">Incorrect password</string>
+
+</resources>
